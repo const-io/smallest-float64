@@ -54,9 +54,10 @@ SMALLEST_FLOAT64.DENORMALIZED === Math.pow( 2, -(1023-1+52) );
 var SMALLEST_FLOAT64 = require( 'const-smallest-float64' );
 
 console.log( SMALLEST_FLOAT64.VALUE );
-// returns
+// returns 2.2250738585072014e-308
 
 console.log( SMALLEST_FLOAT64.DENORMALIZED );
+// returns ~4.94e-324
 ```
 
 To run the example code from the top-level application directory,
